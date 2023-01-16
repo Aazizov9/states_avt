@@ -60,7 +60,7 @@ int main(int argc, char* argv[]) {
             //cout << q[i] << " : " << q[j] << endl;
             ad1 = q[i]; ad2 = q[j];
             bn = 1;
-            for (ll k = 0; k < (1 << n); k++) {
+            for (ll k = 0; k < (1<<1 << n); k++) {
                 ll tmp = k;
                 for (ll b = 1; b < (1 << n); b++) {
                     //n=2 2^2=4 1,2,3
